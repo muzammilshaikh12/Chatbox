@@ -22,4 +22,4 @@ chatbox.use('/',(req,res,next)=>{
     res.status(404).send('<h1>Page not Found</h1>')
 })
 
-chatbox.listen(5000)
+chatbox.listen(3000)
